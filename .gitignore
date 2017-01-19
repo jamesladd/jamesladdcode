@@ -1,0 +1,12 @@
+*~
+*.swp
+*.bak
++*#
++.#*
+.DS_Store
+_site/
+.idea/
+*.iml
+
+
+
