@@ -26,7 +26,7 @@ own file and not static. Additional notes follow the code gist._
 A native Collection is not used because you cannot define only the behaviour you want on a native Collection, and because if the internal collection (line 28) changes you
 don't want to have to change all the code that depends on the Collection.
 
-The Collection (the thing with the information) is asked to do the work = The Tell Don't Ask Principle.
+The Collection (the thing with the information) is asked to do the work = [The Tell Don't Ask Principle.](https://martinfowler.com/bliki/TellDontAsk.html)
 
 As the caller / implementor of ContainedListener you can do whatever you want without modifying the Collection code. In this example I simply print the contained items. Your implementations
 of ContainedListener will also serve as a definition of what happens with contained items rather than that logic being spread throughout the codebase.
