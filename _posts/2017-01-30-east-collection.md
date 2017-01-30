@@ -37,7 +37,7 @@ Making this Collection Class generic would not be hard, it is not made generic h
 
 The "equals" method of Permission is an example and doesn't adhere to Java conventions for an equals method.
 
-I have found through following an East Oriented approach that I write less codei / tests, clearer code / test and my logic finds a Class where it belongs rather than being spread across the codebase.
+I have found through following an East Oriented approach that I write less code / tests, clearer code / tests and my logic finds a Class where it belongs rather than being spread across the codebase.
 
 _Your milage may vary_
 
