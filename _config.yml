@@ -13,7 +13,9 @@ baseurl:          /
 
 author:
   name:           'James Ladd'
-  url:            https://twitter.com/jamesladd
+  url:            https://jamesladdcode.com
+  github:         https://github.com/jamesladd	
+  twitter:        https://twitter.com/jamesladd
 
 paginate:         5
 
