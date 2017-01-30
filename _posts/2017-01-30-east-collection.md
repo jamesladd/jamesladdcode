@@ -12,7 +12,7 @@ These rules are:
 1. Methods must be void (no return value) or return this (self). Preferably void (no return value).
 2. An exception to rule #1 is where the method is a Factory Method that returns a new instance of a Class.
 
-Some have referred to this style as a <a href="{{ https://en.wikipedia.org/wiki/Continuation-passing_style }}">{{ "Continuation" }}</a> or "Functional" style. I'm a Smalltalker so it was going to happen.
+Some have referred to this style as a ["Continuation"](https://en.wikipedia.org/wiki/Continuation-passing_style) or "Functional" style. I'm a Smalltalker so it was going to happen.
 
 #### Collection
 Consider the need to see if a given Collection of Permissions contains another Collection of Permissions. This is how it would be written using an East Oriented approach:
