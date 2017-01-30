@@ -29,9 +29,9 @@ don't want to have to change all the code that depends on the Collection.
 The Collection (the thing with the information) is asked to do the work = The Tell Don't Ask Principle.
 
 As the caller / implementor of ContainedListener you can do whatever you want without modifying the Collection code. In this example I simply print the contained items. Your implementations
-of ContainedListener will also serve as a definition of what happens with contained items rather than that logic being spread through other pieces of code.
+of ContainedListener will also serve as a definition of what happens with contained items rather than that logic being spread throughout the codebase.
 
-To fit in with other ecosystems or frameworks there are some methods that don't adhere to an East Oriented approach like "toString" and "equals". This are usually kept to a minimum.
+To fit in with other ecosystems or frameworks there are some methods that don't adhere to an East Oriented approach like "toString" and "equals". These are usually kept to a minimum.
 
 Making this Collection Class generic would not be hard, it is not made generic here so as to be more clear for the reader and immediately runnable.
 
