@@ -33,7 +33,7 @@ of ContainedListener will also serve as a definition of what happens with contai
 
 To fit in with other ecosystems or frameworks there are some methods that don't adhere to an East Oriented approach like "toString" and "equals". These are usually kept to a minimum.
 
-Making this Collection Class generic would not be hard, it is not made generic here so as to be more clear for the reader and immediately runnable.
+Making this Collection Class generic would not be hard but it is not made generic here so as to be more clear for the reader and immediately runnable.
 
 The "equals" method of Permission is an example and doesn't adhere to Java conventions for an equals method.
 
