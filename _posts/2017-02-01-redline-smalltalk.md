@@ -23,7 +23,7 @@ All Smalltalk sources are loaded through the SmalltalkClassLoader which generate
 
 You will notice in the snippet above that some messages are being sent to the Object 'JVM'. This is a special Object that allows Redline to generate any JVM bytecode instruction thereby allowing any code you can create with the JVM to be implemented. You can think of messages to JVM as the equivalent to inline assembler in C/C++.
 
-You can also package up Smalltalk into a STAR (A Java Archive but with a snappier name) and deploy to Amazon AWS Lambda.
+You can also package up Smalltalk into a STAR (A Java Archive but with a snappier name) and deploy to Amazon AWS Lambda which is a benefit of targetting the JVM.
 
 Work continues on Redline Smalltalk and I welcome people to get involved. You don't need to know Java although there is also work to be done for people who do.
 If you would like to be involved please email me at object at redline.st
