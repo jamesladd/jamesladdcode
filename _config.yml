@@ -6,8 +6,8 @@ permalink:        pretty
 
 # Setup
 title:            JamesLaddCode
-tagline:          'Ramblings and opinions on code - mostly.'
-description:      'A collection of posts relating to software development with occasional rants.'
+tagline:          'Code koans and other food for thought'
+description:      'Code koans and other food for thought with occasional rants.'
 url:              http://jamesladdcode.com
 baseurl:          /
 
