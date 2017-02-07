@@ -9,7 +9,7 @@ This post is about implementing a Collection using an East Oriented approach.
 There are a two simple rules to greatly improve your code and these are collectively called an East Oriented approach.
 These rules are:
 
-1. Methods must be void (no return value) or return this (self). Preferably void (no return value).
+1. Public methods must be void (no return value) or return this (self). Preferably void (no return value).
 2. An exception to rule #1 is where the method is a Factory Method that returns a new instance of a Class.
 
 Some have referred to this style as a ["Continuation"](https://en.wikipedia.org/wiki/Continuation-passing_style) or "Functional" style. I'm a [Smalltalker](http://redline.st) so it was going to happen.
