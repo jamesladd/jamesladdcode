@@ -19,7 +19,7 @@ And here is a snippet from the source for Object.st the base Object in the Small
 
 {% gist 1ca37bf18116af59babc9e371dcf24b9 %}
 
-All Smalltalk sources are loaded through the SmalltalkClassLoader which generates an in memory Java Class and instantiates it which causes the messages contain within the class to be sent. Given a Java Class is generated it is possible to integrate with Java Libraries and for Java to call code in Smalltalk.
+All Smalltalk sources are loaded through the SmalltalkClassLoader which generates an in memory Java Class and instantiates it which causes the messages contained within the class to be sent. Given a Java Class is generated it is possible to integrate with Java Libraries and for Java to call code in Smalltalk.
 
 You will notice in the snippet above that some messages are being sent to the Object 'JVM'. This is a special Object that allows Redline to generate any JVM bytecode instruction thereby allowing any code you can create with the JVM to be implemented. You can think of messages to JVM as the equivalent to inline assembler in C/C++.
 
